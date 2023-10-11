@@ -1,0 +1,9 @@
+version: '3'
+services:
+  llm-projects:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: llm-project
+    environment:
+      - SCRIPT=test.py
