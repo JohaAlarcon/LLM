@@ -1,5 +1,5 @@
 
 
 if __name__ == '__main__':
-    print(" Hola Mamita")
+    print("Imagen inicializada desde el container ")
 
